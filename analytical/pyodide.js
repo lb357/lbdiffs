@@ -12,7 +12,7 @@ export async function initPyodide(libs) {
     try {
         setStatus("Загрузка Pyodide...");
         pyodide = await loadPyodide({
-            indexURL: "/libs/pyodide/"
+            indexURL: "../libs/pyodide/"
         });
         setStatus("Загрузка интерпретатора Python (Pyodide) завершена!");
         setStatus("Загрузка библиотеки SymPy...");
