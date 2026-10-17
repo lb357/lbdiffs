@@ -1,4 +1,4 @@
-import { loadPyodide } from "/libs/pyodide/pyodide.mjs";
+import { loadPyodide } from "../libs/pyodide/pyodide.mjs";
 
 export const statusUpdateEvent = new EventTarget();
 export const readyEvent = new EventTarget();
